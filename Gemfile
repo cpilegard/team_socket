@@ -28,3 +28,6 @@ gem 'rspec'
 gem 'oauth2'
 
 gem 'json'
+
+# gem 'eventmachine'
+gem 'em-websocket'

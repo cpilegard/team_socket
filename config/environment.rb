@@ -23,6 +23,9 @@ require 'awesome_print'
 require 'oauth2'
 require 'json'
 
+# require 'eventmachine'
+require 'em-websocket'
+
 # Some helper constants for path-centric logic
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
 
